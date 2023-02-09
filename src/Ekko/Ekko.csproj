@@ -10,6 +10,9 @@
         <Copyright>0xInception</Copyright>
         <PackageProjectUrl>https://github.com/0xInception/Ekko</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/0xInception/Ekko/blob/master/LICENSE</PackageLicenseUrl>
+        <Title>LCU toolkit</Title>
+        <Description>Cross platform toolkit for league of legend's LCU with multiple client support.</Description>
+        <RepositoryUrl>https://github.com/0xInception/Ekko</RepositoryUrl>
     </PropertyGroup>
 
 </Project>

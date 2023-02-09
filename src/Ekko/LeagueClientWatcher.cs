@@ -29,7 +29,7 @@ public class LeagueClientWatcher
                 return;
             
             var processes = Process.GetProcesses();
-            foreach (var process in processes.Where(p => p.ProcessName.Contains("LeagueClientUx")))
+            foreach (var process in processes.Where(p => p.ProcessName == "LeagueClientUx" || p.ProcessName == "LeagueClientUx.exe")) // Wine turns it into an .exe process.
             {
                 if (token.IsCancellationRequested)
                     return;
