@@ -15,9 +15,9 @@ Global
 		{78A83431-CB97-44FD-A880-D4BF25A53CE5} = {C250E45B-AAC4-4319-BFE2-EA7B292936E4}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78A83431-CB97-44FD-A880-D4BF25A53CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78A83431-CB97-44FD-A880-D4BF25A53CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78A83431-CB97-44FD-A880-D4BF25A53CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78A83431-CB97-44FD-A880-D4BF25A53CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A83431-CB97-44FD-A880-D4BF25A53CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A83431-CB97-44FD-A880-D4BF25A53CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

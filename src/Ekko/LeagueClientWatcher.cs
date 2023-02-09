@@ -29,7 +29,7 @@ public class LeagueClientWatcher
                 return;
             
             var processes = Process.GetProcesses();
-            foreach (var process in processes.Where(p => p.ProcessName == "LeagueClientUx"))
+            foreach (var process in processes.Where(p => p.ProcessName.Contains("LeagueClientUx")))
             {
                 if (token.IsCancellationRequested)
                     return;
